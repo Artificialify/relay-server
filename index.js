@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // ✅ Replace with your Make.com webhook URL
-const MAKE_WEBHOOK_URL = "https://webhook.site/9ecfe2a5-6f04-4c04-a9ad-64c4603d6e18";
+const MAKE_WEBHOOK_URL = "https://hook.us2.make.com/uxpcxb2321mp7qttqc4vvj6tmpc8bfhz";
 
 // ✅ POST handler: receives JSON and relays to Make.com
 app.post("/", async (req, res) => {
